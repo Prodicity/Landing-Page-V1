@@ -1,0 +1,80 @@
+:root { 
+  --black: #000000;
+  --blue-violet: #5b58c5;
+  --cloud: #c6c6c6;
+  --port-gore: #232152;
+  --white: #ffffff;
+ 
+  --font-size-l: 30px;
+  --font-size-m: 25px;
+  --font-size-s: 20px;
+  --font-size-xl: 40px;
+  --font-size-xs: 15px;
+  --font-size-xxl: 60px;
+  --font-size-xxxl: 80px;
+ 
+  --font-family-outfit: "Outfit", Helvetica;
+}
+.outfit-semi-bold-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.outfit-semi-bold-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.outfit-normal-cloud-20px {
+  color: var(--cloud);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.outfit-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.outfit-semi-bold-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.outfit-semi-bold-white-35px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.outfit-semi-bold-white-80px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.outfit-normal-cloud-15px {
+  color: var(--cloud);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
