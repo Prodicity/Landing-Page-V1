@@ -66,7 +66,7 @@
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   min-height: 32px;
   text-align: center;
   width: 210px;
@@ -133,6 +133,7 @@
   height: 229px;
   margin-top: 20px;
   min-width: 239px;
+  opacity: 0;
 }
 
 .landing-page-l-v1-2 .overlap-group {
@@ -252,8 +253,8 @@
   font-weight: 400;
   height: 36px;
   letter-spacing: 0;
-  margin-left: 29.0px;
-  margin-top: 25.0px;
+  margin-left: 29px;
+  margin-top: 25px;
   padding: 0;
   width: 695px;
 }
@@ -276,7 +277,7 @@
 }
 
 .landing-page-l-v1-2 .button:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-l-v1-2 .button-container {
@@ -300,7 +301,7 @@
 }
 
 .landing-page-l-v1-2 .button-background:hover {
-  background-color: #222053
+  background-color: #222053;
 }
 
 .landing-page-l-v1-2 .button-text {
@@ -323,15 +324,17 @@
 }
 
 .landing-page-l-v1-2 .introduction-text-group.bp2-animate-enter7 {
-  animation: bp2-animate-enter7-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp2-animate-enter7-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp2-animate-enter7-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v1-2 .getting-your-work-done-through-gaming {
@@ -368,19 +371,21 @@ to{opacity: 1;
 }
 
 .landing-page-l-v1-2 .rocket.bp2-animate-enter8 {
-  animation: bp2-animate-enter8-frames 0.40s ease-in-out 0.20s 1 normal forwards;
+  animation: bp2-animate-enter8-frames 0.4s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp2-animate-enter8-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v1-2 .about-us2 {
@@ -400,7 +405,11 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .about-us-background {
-  background: linear-gradient(180deg, rgb(22, 21, 53) 0%, rgb(61.99, 59.26, 146.62) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(22, 21, 53) 0%,
+    rgb(61.99, 59.26, 146.62) 100%
+  );
   height: 1080px;
   left: 15px;
   position: absolute;
@@ -462,19 +471,21 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .prodicity-logo-1.bp2-animate-enter6 {
-  animation: bp2-animate-enter6-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+  animation: bp2-animate-enter6-frames 1s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp2-animate-enter6-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v1-2 .prodicity-logo-1:hover {
@@ -567,7 +578,12 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .gamilification3 {
-  background: linear-gradient(180deg, rgb(59, 57, 141) 0%, rgb(61, 59, 144) 0.01%, rgb(50, 48, 114) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(59, 57, 141) 0%,
+    rgb(61, 59, 144) 0.01%,
+    rgb(50, 48, 114) 100%
+  );
   display: flex;
   flex-direction: column;
   height: 1080px;
@@ -614,7 +630,7 @@ transform: scale(1);
   height: 499px;
   margin-left: -1px;
   margin-top: 171px;
-  padding: 28.0px 54.0px;
+  padding: 28px 54px;
   width: 957px;
 }
 
@@ -639,19 +655,21 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .gamilification-feature-showcase.bp2-animate-enter4 {
-  animation: bp2-animate-enter4-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp2-animate-enter4-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp2-animate-enter4-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v1-2 .gamilification-feature-showcase:hover {
@@ -673,19 +691,21 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .character.bp2-animate-enter5 {
-  animation: bp2-animate-enter5-frames 0.40s ease-in-out 0.10s 1 normal forwards;
+  animation: bp2-animate-enter5-frames 0.4s ease-in-out 0.1s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp2-animate-enter5-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v1-2 .character:hover {
@@ -694,7 +714,11 @@ transform: translate(0,0);
 
 .landing-page-l-v1-2 .productivity3 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(49, 47, 110) 0%, rgb(58, 55, 140) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(49, 47, 110) 0%,
+    rgb(58, 55, 140) 100%
+  );
   display: flex;
   flex-direction: column;
   height: 1080px;
@@ -724,24 +748,26 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v1-2 .frame-session-text.bp2-animate-enter3 {
-  animation: bp2-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp2-animate-enter3-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes bp2-animate-enter3-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v1-2 .group-session-title {
   height: 91px;
   letter-spacing: 0;
-  margin-left: -108.0px;
+  margin-left: -108px;
   text-align: center;
   width: 738.5px;
 }
@@ -769,18 +795,20 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v1-2 .marketplace-text.bp2-animate-enter2 {
-  animation: bp2-animate-enter2-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp2-animate-enter2-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp2-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v1-2 .marketplace-title {
@@ -827,18 +855,20 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v1-2 .differentiation-subtitle.bp2-animate-enter1 {
-  animation: bp2-animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp2-animate-enter1-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp2-animate-enter1-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v1-2 .differentiation-title {
@@ -852,18 +882,20 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .differentiation-title.bp2-animate-enter {
-  animation: bp2-animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp2-animate-enter-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp2-animate-enter-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v1-2 .overlap-group-container {
@@ -915,7 +947,7 @@ transform: scale(1);
 
 .landing-page-l-v1-2 .challenges-text {
   letter-spacing: 0;
-  margin-left: -26.0px;
+  margin-left: -26px;
   min-height: 224px;
   text-align: center;
   width: 291px;
@@ -967,8 +999,8 @@ transform: scale(1);
 .landing-page-l-v1-2 .quests-text {
   flex: 1;
   letter-spacing: 0;
-  margin-left: -8.0%;
-  margin-right: 8.0%;
+  margin-left: -8%;
+  margin-right: 8%;
   text-align: center;
   width: 241px;
 }
@@ -1424,7 +1456,7 @@ transform: scale(1);
 }
 
 .landing-page-l-v1-2 .submit-button-background:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-l-v1-2 .submit-button-text {
@@ -1613,7 +1645,7 @@ transform: scale(1);
 }
 
 .landing-page-m-v1-2 .button-background-1:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-m-v1-2 .button-text-1 {
@@ -1638,19 +1670,21 @@ transform: scale(1);
 }
 
 .landing-page-m-v1-2 .rocket-1.bp3-animate-enter12 {
-  animation: bp3-animate-enter12-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter12-frames 0.2s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(0.9);
 }
 
 @keyframes bp3-animate-enter12-frames {
-  from{opacity: 0;
-transform: scale(0.9);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-m-v1-2 .introduction-text-group-1 {
@@ -1704,15 +1738,17 @@ transform: scale(1);
 }
 
 .landing-page-m-v1-2 .nav-bar-right-2.bp3-animate-enter13 {
-  animation: bp3-animate-enter13-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter13-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp3-animate-enter13-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-m-v1-2 .about-1 {
@@ -1766,6 +1802,7 @@ to{opacity: 1;
   margin-top: 17px;
   min-width: 188px;
   padding: 0 0.5px;
+  opacity: 0;
 }
 
 .landing-page-m-v1-2 .overlap-group-7 {
@@ -1868,11 +1905,15 @@ to{opacity: 1;
 
 .landing-page-m-v1-2 .overlap-group6-1 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(22, 21, 53) 0%, rgb(61.99, 59.26, 146.62) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(22, 21, 53) 0%,
+    rgb(61.99, 59.26, 146.62) 100%
+  );
   display: flex;
   height: 700px;
   min-width: 1200px;
-  padding: 88px 6.0px;
+  padding: 88px 6px;
 }
 
 .landing-page-m-v1-2 .about-us-container {
@@ -1918,18 +1959,20 @@ to{opacity: 1;
 }
 
 .landing-page-m-v1-2 .prodicity-logo-3.bp3-animate-enter11 {
-  animation: bp3-animate-enter11-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+  animation: bp3-animate-enter11-frames 1s ease-in-out 0.2s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp3-animate-enter11-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-m-v1-2 .prodicity-logo-3:hover {
@@ -2058,7 +2101,12 @@ transform: scale(1);
 
 .landing-page-m-v1-2 .gamilification4 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(59, 57, 141) 0%, rgb(61, 59, 144) 0.01%, rgb(50, 48, 114) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(59, 57, 141) 0%,
+    rgb(61, 59, 144) 0.01%,
+    rgb(50, 48, 114) 100%
+  );
   display: flex;
   flex-direction: column;
   min-height: 700px;
@@ -2105,18 +2153,20 @@ transform: scale(1);
 }
 
 .landing-page-m-v1-2 .component-1.bp3-animate-enter10 {
-  animation: bp3-animate-enter10-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter10-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp3-animate-enter10-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .overlap-group-8 {
@@ -2142,19 +2192,21 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .gamilification-feature-showcase-1.bp3-animate-enter8 {
-  animation: bp3-animate-enter8-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter8-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp3-animate-enter8-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-m-v1-2 .gamilification-feature-showcase-1:hover {
@@ -2176,19 +2228,21 @@ transform: scale(1);
 }
 
 .landing-page-m-v1-2 .character-1.bp3-animate-enter9 {
-  animation: bp3-animate-enter9-frames 0.40s ease-in-out 0.10s 1 normal forwards;
+  animation: bp3-animate-enter9-frames 0.4s ease-in-out 0.1s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp3-animate-enter9-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .character-1:hover {
@@ -2197,7 +2251,11 @@ transform: translate(0,0);
 
 .landing-page-m-v1-2 .productivity4 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(49, 47, 110) 0%, rgb(58, 55, 140) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(49, 47, 110) 0%,
+    rgb(58, 55, 140) 100%
+  );
   display: flex;
   flex-direction: column;
   height: 700px;
@@ -2227,18 +2285,20 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .frame-session-text-1.bp3-animate-enter7 {
-  animation: bp3-animate-enter7-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter7-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes bp3-animate-enter7-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .group-session-title-1 {
@@ -2271,18 +2331,20 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .marketplace-text-1.bp3-animate-enter6 {
-  animation: bp3-animate-enter6-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter6-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp3-animate-enter6-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .marketplace-title-1 {
@@ -2452,7 +2514,7 @@ transform: translate(0,0);
 
 .landing-page-m-v1-2 .vector-2 {
   height: 49px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   width: 38px;
 }
 
@@ -2680,7 +2742,7 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .submit-button-background-1:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-m-v1-2 .submit-button-text-1 {
@@ -2758,15 +2820,17 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .differentiation-header.bp3-animate-enter5 {
-  animation: bp3-animate-enter5-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter5-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp3-animate-enter5-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-m-v1-2 .overlap-group4 {
@@ -2788,18 +2852,20 @@ to{opacity: 1;
 }
 
 .landing-page-m-v1-2 .challenges.bp3-animate-enter {
-  animation: bp3-animate-enter-frames 0.60s ease-in-out 0.40s 1 normal forwards;
+  animation: bp3-animate-enter-frames 0.6s ease-in-out 0.4s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp3-animate-enter-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .overlap-group1-3 {
@@ -2870,18 +2936,20 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .quests.bp3-animate-enter1 {
-  animation: bp3-animate-enter1-frames 0.60s ease-in-out 0.60s 1 normal forwards;
+  animation: bp3-animate-enter1-frames 0.6s ease-in-out 0.6s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp3-animate-enter1-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .quests-container-1 {
@@ -2921,7 +2989,7 @@ transform: translate(0,0);
 
 .landing-page-m-v1-2 .quests-text-1 {
   letter-spacing: 0;
-  margin-right: 4.0px;
+  margin-right: 4px;
   margin-top: 19px;
   min-height: 60px;
   text-align: center;
@@ -2954,18 +3022,20 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .clans.bp3-animate-enter2 {
-  animation: bp3-animate-enter2-frames 0.60s ease-in-out 0.20s 1 normal forwards;
+  animation: bp3-animate-enter2-frames 0.6s ease-in-out 0.2s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp3-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-m-v1-2 .clans-container-1 {
@@ -2997,7 +3067,7 @@ transform: translate(0,0);
 
 .landing-page-m-v1-2 .clans-title-1 {
   letter-spacing: 0;
-  margin-right: 4.0px;
+  margin-right: 4px;
   min-height: 53px;
   text-align: center;
   width: 321px;
@@ -3039,18 +3109,20 @@ transform: translate(0,0);
 }
 
 .landing-page-m-v1-2 .differentiation-title-1.bp3-animate-enter3 {
-  animation: bp3-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter3-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp3-animate-enter3-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-m-v1-2 .differentiation-subtitle-1 {
@@ -3065,18 +3137,20 @@ transform: scale(1);
 }
 
 .landing-page-m-v1-2 .differentiation-subtitle-1.bp3-animate-enter4 {
-  animation: bp3-animate-enter4-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp3-animate-enter4-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp3-animate-enter4-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 /* screen - landing-page-s-v1-2 */
 
@@ -3197,7 +3271,7 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .button-background-2:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-s-v1-2 .button-text-2 {
@@ -3222,19 +3296,21 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .rocket-2.bp4-animate-enter12 {
-  animation: bp4-animate-enter12-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter12-frames 0.2s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(0.9);
 }
 
 @keyframes bp4-animate-enter12-frames {
-  from{opacity: 0;
-transform: scale(0.9);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-s-v1-2 .introduction-text-group-2 {
@@ -3367,15 +3443,17 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .nav-bar-right-3.bp4-animate-enter13 {
-  animation: bp4-animate-enter13-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter13-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp4-animate-enter13-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-s-v1-2 .about-2 {
@@ -3446,7 +3524,11 @@ to{opacity: 1;
 }
 
 .landing-page-s-v1-2 .about-us-background-1 {
-  background: linear-gradient(180deg, rgb(22, 21, 53) 0%, rgb(61.99, 59.26, 146.62) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(22, 21, 53) 0%,
+    rgb(61.99, 59.26, 146.62) 100%
+  );
   height: 700px;
   left: 208px;
   position: absolute;
@@ -3565,7 +3647,7 @@ to{opacity: 1;
   cursor: pointer;
   display: block;
   height: 131px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 28px;
   opacity: 0;
   transform: scale(1.1);
@@ -3574,19 +3656,21 @@ to{opacity: 1;
 }
 
 .landing-page-s-v1-2 .prodicity-logo-5.bp4-animate-enter11 {
-  animation: bp4-animate-enter11-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+  animation: bp4-animate-enter11-frames 1s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp4-animate-enter11-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-s-v1-2 .prodicity-logo-5:hover {
@@ -3595,7 +3679,12 @@ transform: scale(1);
 
 .landing-page-s-v1-2 .gamilification2 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(59, 57, 141) 0%, rgb(61, 59, 144) 0.01%, rgb(50, 48, 114) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(59, 57, 141) 0%,
+    rgb(61, 59, 144) 0.01%,
+    rgb(50, 48, 114) 100%
+  );
   display: flex;
   flex-direction: column;
   min-height: 700px;
@@ -3642,18 +3731,20 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .component-1-1.bp4-animate-enter10 {
-  animation: bp4-animate-enter10-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter10-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp4-animate-enter10-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .overlap-group-15 {
@@ -3679,19 +3770,21 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .gamilification-feature-showcase-2.bp4-animate-enter8 {
-  animation: bp4-animate-enter8-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter8-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp4-animate-enter8-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-s-v1-2 .gamilification-feature-showcase-2:hover {
@@ -3713,19 +3806,21 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .character-2.bp4-animate-enter9 {
-  animation: bp4-animate-enter9-frames 0.40s ease-in-out 0.10s 1 normal forwards;
+  animation: bp4-animate-enter9-frames 0.4s ease-in-out 0.1s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp4-animate-enter9-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .character-2:hover {
@@ -3734,7 +3829,11 @@ transform: translate(0,0);
 
 .landing-page-s-v1-2 .productivity2 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(49, 47, 110) 0%, rgb(58, 55, 140) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(49, 47, 110) 0%,
+    rgb(58, 55, 140) 100%
+  );
   display: flex;
   flex-direction: column;
   height: 700px;
@@ -3766,18 +3865,20 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .frame-session-text-2.bp4-animate-enter7 {
-  animation: bp4-animate-enter7-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter7-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes bp4-animate-enter7-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .group-session-title-2 {
@@ -3810,18 +3911,20 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .marketplace-text-2.bp4-animate-enter6 {
-  animation: bp4-animate-enter6-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter6-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp4-animate-enter6-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .marketplace-title-2 {
@@ -3878,15 +3981,17 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .differentiation-header-1.bp4-animate-enter5 {
-  animation: bp4-animate-enter5-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter5-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp4-animate-enter5-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-s-v1-2 .overlap-group4-1 {
@@ -3908,18 +4013,20 @@ to{opacity: 1;
 }
 
 .landing-page-s-v1-2 .challenges-1.bp4-animate-enter {
-  animation: bp4-animate-enter-frames 0.60s ease-in-out 0.40s 1 normal forwards;
+  animation: bp4-animate-enter-frames 0.6s ease-in-out 0.4s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp4-animate-enter-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .overlap-group1-4 {
@@ -3990,18 +4097,20 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .quests-1.bp4-animate-enter1 {
-  animation: bp4-animate-enter1-frames 0.60s ease-in-out 0.60s 1 normal forwards;
+  animation: bp4-animate-enter1-frames 0.6s ease-in-out 0.6s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp4-animate-enter1-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .quests-container-2 {
@@ -4042,7 +4151,7 @@ transform: translate(0,0);
 
 .landing-page-s-v1-2 .quests-text-2 {
   letter-spacing: 0;
-  margin-right: 4.0px;
+  margin-right: 4px;
   margin-top: 19px;
   min-height: 60px;
   text-align: center;
@@ -4075,18 +4184,20 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .clans-1.bp4-animate-enter2 {
-  animation: bp4-animate-enter2-frames 0.60s ease-in-out 0.20s 1 normal forwards;
+  animation: bp4-animate-enter2-frames 0.6s ease-in-out 0.2s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp4-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-s-v1-2 .clans-container-2 {
@@ -4162,18 +4273,20 @@ transform: translate(0,0);
 }
 
 .landing-page-s-v1-2 .differentiation-title-2.bp4-animate-enter3 {
-  animation: bp4-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter3-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp4-animate-enter3-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-s-v1-2 .differentiation-subtitle-2 {
@@ -4188,18 +4301,20 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .differentiation-subtitle-2.bp4-animate-enter4 {
-  animation: bp4-animate-enter4-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp4-animate-enter4-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp4-animate-enter4-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-s-v1-2 .contact-us-1 {
@@ -4258,7 +4373,7 @@ transform: scale(1);
 
 .landing-page-s-v1-2 .input-container-2 {
   height: 156px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   position: relative;
   width: 732px;
 }
@@ -4353,7 +4468,7 @@ transform: scale(1);
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 92px;
   min-height: 245px;
   width: 732px;
@@ -4410,7 +4525,7 @@ transform: scale(1);
 }
 
 .landing-page-s-v1-2 .submit-button-background-2:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-s-v1-2 .submit-button-text-2 {
@@ -4452,7 +4567,7 @@ transform: scale(1);
 
 .landing-page-s-v1-2 .overlap-group1-5 {
   height: 810px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 16px;
   position: relative;
   width: 713px;
@@ -4539,7 +4654,7 @@ transform: scale(1);
 
 .landing-page-s-v1-2 .vector-4 {
   height: 55px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   width: 38px;
 }
 
@@ -4592,7 +4707,7 @@ transform: scale(1);
 
 .landing-page-s-v1-2 .copyright-text-2 {
   letter-spacing: 0;
-  margin-left: 12.0px;
+  margin-left: 12px;
   margin-top: 50px;
   min-height: 43px;
   text-align: center;
@@ -4740,7 +4855,7 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .button-background-3:hover {
-  background-color: #222053
+  background-color: #222053;
 }
 
 .landing-page-xl-v1-2 .button-text-3 {
@@ -4763,15 +4878,17 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .introduction-text-group-3.bp1-animate-enter7 {
-  animation: bp1-animate-enter7-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter7-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp1-animate-enter7-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-xl-v1-2 .getting-your-work-done-through-gaming-3 {
@@ -4808,19 +4925,21 @@ to{opacity: 1;
 }
 
 .landing-page-xl-v1-2 .rocket-3.bp1-animate-enter8 {
-  animation: bp1-animate-enter8-frames 0.40s ease-in-out 0.20s 1 normal forwards;
+  animation: bp1-animate-enter8-frames 0.4s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp1-animate-enter8-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xl-v1-2 .nav-bar-1 {
@@ -4857,7 +4976,7 @@ transform: scale(1);
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   min-height: 32px;
   text-align: center;
   width: 210px;
@@ -4870,13 +4989,13 @@ transform: scale(1);
   justify-content: flex-end;
   margin-left: 500px;
   min-width: 760px;
-  padding: 0 60.0px;
+  padding: 0 60px;
 }
 
 .landing-page-xl-v1-2 .about-3 {
   cursor: pointer;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   min-height: 32px;
   text-align: center;
   transition: all 0.2s ease;
@@ -4919,6 +5038,7 @@ transform: scale(1);
   justify-content: flex-end;
   margin-top: 60px;
   min-width: 239px;
+  opacity: 0;
 }
 
 .landing-page-xl-v1-2 .overlap-group-20 {
@@ -4980,7 +5100,7 @@ transform: scale(1);
 .landing-page-xl-v1-2 .place-3 {
   cursor: pointer;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   margin-left: 60px;
   min-height: 32px;
   text-align: center;
@@ -5011,7 +5131,11 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .about-us-background-2 {
-  background: linear-gradient(180deg, rgb(22, 21, 53) 0%, rgb(61.99, 59.26, 146.62) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(22, 21, 53) 0%,
+    rgb(61.99, 59.26, 146.62) 100%
+  );
   height: 1080px;
   left: 12px;
   position: absolute;
@@ -5064,7 +5188,7 @@ transform: scale(1);
 .landing-page-xl-v1-2 .prodicity-logo-7 {
   display: block;
   height: 302px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 27px;
   opacity: 0;
   transform: scale(1.1);
@@ -5072,19 +5196,21 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .prodicity-logo-7.bp1-animate-enter6 {
-  animation: bp1-animate-enter6-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+  animation: bp1-animate-enter6-frames 1s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp1-animate-enter6-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xl-v1-2 .about-us-right-2 {
@@ -5166,7 +5292,12 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .gamilification {
-  background: linear-gradient(180deg, rgb(59, 57, 141) 0%, rgb(61, 59, 144) 0.01%, rgb(50, 48, 114) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(59, 57, 141) 0%,
+    rgb(61, 59, 144) 0.01%,
+    rgb(50, 48, 114) 100%
+  );
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -5235,19 +5366,21 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .gamilification-feature-showcase-3.bp1-animate-enter4 {
-  animation: bp1-animate-enter4-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter4-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp1-animate-enter4-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xl-v1-2 .gamilification-feature-showcase-3:hover {
@@ -5269,19 +5402,21 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .character-3.bp1-animate-enter5 {
-  animation: bp1-animate-enter5-frames 0.40s ease-in-out 0.10s 1 normal forwards;
+  animation: bp1-animate-enter5-frames 0.4s ease-in-out 0.1s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp1-animate-enter5-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xl-v1-2 .character-3:hover {
@@ -5290,7 +5425,11 @@ transform: translate(0,0);
 
 .landing-page-xl-v1-2 .productivity-4 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(49, 47, 110) 0%, rgb(58, 55, 140) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(49, 47, 110) 0%,
+    rgb(58, 55, 140) 100%
+  );
   display: flex;
   flex: 1;
   max-height: 1080px;
@@ -5322,18 +5461,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xl-v1-2 .marketplace-text-3.bp1-animate-enter2 {
-  animation: bp1-animate-enter2-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter2-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp1-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xl-v1-2 .marketplace-title-3 {
@@ -5369,18 +5510,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xl-v1-2 .frame-session-text-3.bp1-animate-enter3 {
-  animation: bp1-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter3-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes bp1-animate-enter3-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xl-v1-2 .group-session-title-3 {
@@ -5440,18 +5583,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xl-v1-2 .differentiation-subtitle-3.bp1-animate-enter1 {
-  animation: bp1-animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter1-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp1-animate-enter1-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xl-v1-2 .differentiation-title-3 {
@@ -5464,18 +5609,20 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .differentiation-title-3.bp1-animate-enter {
-  animation: bp1-animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp1-animate-enter-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xl-v1-2 .overlap-group-container-2 {
@@ -5852,7 +5999,7 @@ transform: scale(1);
 }
 
 .landing-page-xl-v1-2 .submit-button-background-3:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-xl-v1-2 .submit-button-text-3 {
@@ -5891,7 +6038,7 @@ transform: scale(1);
 .landing-page-xl-v1-2 .contact-us-information {
   align-self: center;
   height: 169px;
-  margin-left: 92.0px;
+  margin-left: 92px;
   margin-top: 46px;
   width: 440px;
 }
@@ -6076,15 +6223,17 @@ transform: scale(1);
 }
 
 .landing-page-xs-v1-2 .nav-bar-bottom.bp5-animate-enter13 {
-  animation: bp5-animate-enter13-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter13-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp5-animate-enter13-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-xs-v1-2 .about-4 {
@@ -6152,7 +6301,7 @@ to{opacity: 1;
   margin-left: -0.7px;
   margin-top: 8px;
   min-width: 563.28px;
-  padding: 0.0px 0;
+  padding: 0px 0;
 }
 
 .landing-page-xs-v1-2 .overlap-group1-9 {
@@ -6190,16 +6339,19 @@ to{opacity: 1;
   width: 423px;
 }
 
-.landing-page-xs-v1-2 .getting-your-work-done-through-gaming-4.bp5-animate-enter8 {
-  animation: bp5-animate-enter8-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+.landing-page-xs-v1-2
+  .getting-your-work-done-through-gaming-4.bp5-animate-enter8 {
+  animation: bp5-animate-enter8-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp5-animate-enter8-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-xs-v1-2 .we-created-this-soft-4 {
@@ -6217,15 +6369,17 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v1-2 .we-created-this-soft-4.bp5-animate-enter9 {
-  animation: bp5-animate-enter9-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter9-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp5-animate-enter9-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-xs-v1-2 .waitlist-input-6 {
@@ -6241,15 +6395,17 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v1-2 .waitlist-input-6.bp5-animate-enter10 {
-  animation: bp5-animate-enter10-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter10-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp5-animate-enter10-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-xs-v1-2 .input-placeholder-text-4 {
@@ -6281,15 +6437,17 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v1-2 .waitlist-button.bp5-animate-enter11 {
-  animation: bp5-animate-enter11-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter11-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes bp5-animate-enter11-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-xs-v1-2 .button-container-4 {
@@ -6312,7 +6470,7 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v1-2 .button-background-4:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-xs-v1-2 .button-text-4 {
@@ -6338,19 +6496,21 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v1-2 .rocket-4.bp5-animate-enter12 {
-  animation: bp5-animate-enter12-frames 0.40s ease-in-out 0.20s 1 normal forwards;
+  animation: bp5-animate-enter12-frames 0.4s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp5-animate-enter12-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xs-v1-2 .about-us-5 {
@@ -6392,7 +6552,7 @@ transform: scale(1);
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 13.0px;
+  margin-bottom: 13px;
   min-height: 257px;
   width: 244px;
 }
@@ -6409,7 +6569,7 @@ transform: scale(1);
   cursor: pointer;
   display: block;
   height: 132px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 28px;
   opacity: 0;
   transform: scale(1.1);
@@ -6418,19 +6578,21 @@ transform: scale(1);
 }
 
 .landing-page-xs-v1-2 .prodicity-logo-9.bp5-animate-enter7 {
-  animation: bp5-animate-enter7-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+  animation: bp5-animate-enter7-frames 1s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp5-animate-enter7-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xs-v1-2 .prodicity-logo-9:hover {
@@ -6466,7 +6628,12 @@ transform: scale(1);
 
 .landing-page-xs-v1-2 .gamilification1 {
   align-items: flex-start;
-  background: linear-gradient(180deg, rgb(59, 57, 141) 0%, rgb(61, 59, 144) 0.01%, rgb(50, 48, 114) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(59, 57, 141) 0%,
+    rgb(61, 59, 144) 0.01%,
+    rgb(50, 48, 114) 100%
+  );
   display: flex;
   flex-direction: column;
   margin-left: -1px;
@@ -6509,24 +6676,30 @@ transform: scale(1);
 }
 
 .landing-page-xs-v1-2 .gamilification-group.bp5-animate-enter6 {
-  animation: bp5-animate-enter6-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter6-frames 0.2s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
 @keyframes bp5-animate-enter6-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xs-v1-2 .productivity1 {
   align-items: center;
-  background: linear-gradient(180deg, rgb(49, 47, 110) 0%, rgb(58, 55, 140) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(49, 47, 110) 0%,
+    rgb(58, 55, 140) 100%
+  );
   display: flex;
   flex-direction: column;
   height: 1143px;
@@ -6544,18 +6717,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xs-v1-2 .group-3.bp5-animate-enter5 {
-  animation: bp5-animate-enter5-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter5-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp5-animate-enter5-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xs-v1-2 .group-session-3 {
@@ -6576,18 +6751,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xs-v1-2 .frame-session-text-4.bp5-animate-enter4 {
-  animation: bp5-animate-enter4-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter4-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes bp5-animate-enter4-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xs-v1-2 .group-session-title-4 {
@@ -6620,18 +6797,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xs-v1-2 .marketplace-4.bp5-animate-enter3 {
-  animation: bp5-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter3-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes bp5-animate-enter3-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xs-v1-2 .marketplace-text-4 {
@@ -6645,18 +6824,20 @@ transform: translate(0,0);
 }
 
 .landing-page-xs-v1-2 .marketplace-text-4.bp5-animate-enter2 {
-  animation: bp5-animate-enter2-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter2-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes bp5-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-xs-v1-2 .marketplace-title-4 {
@@ -6712,7 +6893,7 @@ transform: translate(0,0);
   font-size: var(--font-size-xl);
   font-weight: 600;
   letter-spacing: 0;
-  margin-right: 20.0px;
+  margin-right: 20px;
   min-height: 58px;
   opacity: 0;
   text-align: center;
@@ -6721,23 +6902,25 @@ transform: translate(0,0);
 }
 
 .landing-page-xs-v1-2 .differentiation-subtitle-4.bp5-animate-enter1 {
-  animation: bp5-animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter1-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp5-animate-enter1-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xs-v1-2 .differentiation-title-4 {
   letter-spacing: 0;
-  margin-right: 4.0px;
+  margin-right: 4px;
   margin-top: 19px;
   min-height: 186px;
   opacity: 0;
@@ -6747,25 +6930,27 @@ transform: scale(1);
 }
 
 .landing-page-xs-v1-2 .differentiation-title-4.bp5-animate-enter {
-  animation: bp5-animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp5-animate-enter-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes bp5-animate-enter-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-xs-v1-2 .staircase {
   display: flex;
   flex-direction: column;
   height: 1097px;
-  margin-right: 13.0px;
+  margin-right: 13px;
   margin-top: 86px;
   width: 638px;
 }
@@ -6823,7 +7008,7 @@ transform: scale(1);
 .landing-page-xs-v1-2 .clans-text-4 {
   align-self: center;
   letter-spacing: 0;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 37px;
   min-height: 108px;
   text-align: center;
@@ -6955,7 +7140,7 @@ transform: scale(1);
 
 .landing-page-xs-v1-2 .challenges-title-4 {
   letter-spacing: 0;
-  margin-right: 4.0px;
+  margin-right: 4px;
   min-height: 57px;
   text-align: center;
   width: 482px;
@@ -6963,7 +7148,7 @@ transform: scale(1);
 
 .landing-page-xs-v1-2 .challenges-text-4 {
   letter-spacing: 0;
-  margin-right: 5.0px;
+  margin-right: 5px;
   margin-top: 21px;
   min-height: 94px;
   text-align: center;
@@ -7047,7 +7232,7 @@ transform: scale(1);
   display: flex;
   flex-direction: column;
   height: 205px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 26px;
   width: 541px;
 }
@@ -7148,7 +7333,7 @@ transform: scale(1);
 
 .landing-page-xs-v1-2 .input-container-3 {
   height: 156px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   position: relative;
   width: 732px;
 }
@@ -7243,7 +7428,7 @@ transform: scale(1);
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 92px;
   min-height: 245px;
   width: 732px;
@@ -7300,7 +7485,7 @@ transform: scale(1);
 }
 
 .landing-page-xs-v1-2 .submit-button-background-4:hover {
-  background-color: #232154
+  background-color: #232154;
 }
 
 .landing-page-xs-v1-2 .submit-button-text-4 {
@@ -7340,72 +7525,72 @@ transform: scale(1);
   width: 625px;
 }
 @media screen and (max-width: 955px) {
-  .screen.landing-page-xl-v1-2 { 
+  .screen.landing-page-xl-v1-2 {
     display: none;
-   }
-  .screen.landing-page-s-v1-2 { 
+  }
+  .screen.landing-page-s-v1-2 {
     display: none;
-   }
-  .screen.landing-page-l-v1-2 { 
+  }
+  .screen.landing-page-l-v1-2 {
     display: none;
-   }
-  .screen.landing-page-m-v1-2 { 
+  }
+  .screen.landing-page-m-v1-2 {
     display: none;
-   }
+  }
 }
 @media screen and (min-width: 956px) and (max-width: 1199px) {
-  .screen.landing-page-xl-v1-2 { 
+  .screen.landing-page-xl-v1-2 {
     display: none;
-   }
-  .screen.landing-page-xs-v1-2 { 
+  }
+  .screen.landing-page-xs-v1-2 {
     display: none;
-   }
-  .screen.landing-page-l-v1-2 { 
+  }
+  .screen.landing-page-l-v1-2 {
     display: none;
-   }
-  .screen.landing-page-m-v1-2 { 
+  }
+  .screen.landing-page-m-v1-2 {
     display: none;
-   }
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1409px) {
-  .screen.landing-page-xl-v1-2 { 
+  .screen.landing-page-xl-v1-2 {
     display: none;
-   }
-  .screen.landing-page-xs-v1-2 { 
+  }
+  .screen.landing-page-xs-v1-2 {
     display: none;
-   }
-  .screen.landing-page-s-v1-2 { 
+  }
+  .screen.landing-page-s-v1-2 {
     display: none;
-   }
-  .screen.landing-page-l-v1-2 { 
+  }
+  .screen.landing-page-l-v1-2 {
     display: none;
-   }
+  }
 }
 @media screen and (min-width: 1410px) and (max-width: 1919px) {
-  .screen.landing-page-xl-v1-2 { 
+  .screen.landing-page-xl-v1-2 {
     display: none;
-   }
-  .screen.landing-page-xs-v1-2 { 
+  }
+  .screen.landing-page-xs-v1-2 {
     display: none;
-   }
-  .screen.landing-page-s-v1-2 { 
+  }
+  .screen.landing-page-s-v1-2 {
     display: none;
-   }
-  .screen.landing-page-m-v1-2 { 
+  }
+  .screen.landing-page-m-v1-2 {
     display: none;
-   }
+  }
 }
 @media screen and (min-width: 1920px) {
-  .screen.landing-page-xs-v1-2 { 
+  .screen.landing-page-xs-v1-2 {
     display: none;
-   }
-  .screen.landing-page-s-v1-2 { 
+  }
+  .screen.landing-page-s-v1-2 {
     display: none;
-   }
-  .screen.landing-page-l-v1-2 { 
+  }
+  .screen.landing-page-l-v1-2 {
     display: none;
-   }
-  .screen.landing-page-m-v1-2 { 
+  }
+  .screen.landing-page-m-v1-2 {
     display: none;
-   }
+  }
 }
