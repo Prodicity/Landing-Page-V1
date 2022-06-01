@@ -65,13 +65,13 @@
   margin-left: 500px;
   margin-top: -274.5px;
   min-width: 760px;
-  padding: 0 60.0px;
+  padding: 0 60px;
 }
 
 .landing-page-l-v2-2 .about {
   cursor: pointer;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   min-height: 32px;
   text-align: center;
   transition: all 0.2s ease;
@@ -109,16 +109,20 @@
 
 .landing-page-l-v2-2 .features-drop-down {
   align-items: flex-start;
-  display: flex;
   height: 229px;
   justify-content: flex-end;
   margin-top: 60px;
   min-width: 239px;
+
+  /* changed by jack */
+  /* display: flex; */
+  display: none;
+  transition: display, 0.6s;
 }
 
 .landing-page-l-v2-2 .group-container {
   height: 222px;
-  margin-top: -32.0px;
+  margin-top: -32px;
   position: relative;
   width: 239px;
 }
@@ -191,7 +195,7 @@
 .landing-page-l-v2-2 .place {
   cursor: pointer;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   margin-left: 60px;
   min-height: 32px;
   text-align: center;
@@ -209,7 +213,7 @@
   background-color: var(--haiti-2);
   display: flex;
   flex-direction: column;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 113px;
   min-height: 846px;
   width: 1545px;
@@ -219,7 +223,7 @@
   cursor: pointer;
   display: block;
   height: 150px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: -75px;
   object-fit: cover;
   opacity: 0;
@@ -229,19 +233,21 @@
 }
 
 .landing-page-l-v2-2 .rocket.animate-enter13 {
-  animation: animate-enter13-frames 0.40s ease-in-out 0.20s 1 normal forwards;
+  animation: animate-enter13-frames 0.4s ease-in-out 0.2s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes animate-enter13-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v2-2 .rocket:hover {
@@ -250,22 +256,24 @@ transform: scale(1);
 
 .landing-page-l-v2-2 .waitlist-text-group {
   height: 202px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 46px;
   opacity: 0;
   width: 828px;
 }
 
 .landing-page-l-v2-2 .waitlist-text-group.animate-enter12 {
-  animation: animate-enter12-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter12-frames 0.2s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes animate-enter12-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v2-2 .waitlist-title {
@@ -278,7 +286,7 @@ to{opacity: 1;
 
 .landing-page-l-v2-2 .waitlist-subtitle {
   letter-spacing: 0;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 42px;
   min-height: 64px;
   text-align: center;
@@ -302,13 +310,18 @@ to{opacity: 1;
   width: 801px;
 }
 
-.landing-page-l-v2-2 .input-placeholder-text {
+/* changed by jack */
+.landing-page-l-v2-2 .waitlist-form-input::placeholder {
   height: 36.28px;
   letter-spacing: 0;
   margin-left: 39.1px;
   margin-top: 24.8px;
   width: 716.99px;
 }
+/* 
+.landing-page-l-v2-2 .input-placeholder-text {
+} */
+/* changed by jack */
 
 .landing-page-l-v2-2 .waitlist-form-submit-button {
   background-color: var(--haiti2);
@@ -319,23 +332,29 @@ to{opacity: 1;
   height: 86.01px;
   transition: all 0.2s ease;
   width: 388px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .landing-page-l-v2-2 .waitlist-form-submit-button:hover {
-  background-color: #222053
+  background-color: #222053;
 }
 
-.landing-page-l-v2-2 .button-text {
+/* .landing-page-l-v2-2 .waitlist-form-submit-button {
   height: 43px;
   letter-spacing: 0;
   margin-top: 27.7px;
   text-align: center;
   width: 377.49px;
-}
+} */
 
 .landing-page-l-v2-2 .about-us {
   align-items: flex-end;
-  background: linear-gradient(180deg, rgb(22, 21, 53) 0%, rgb(62, 59, 147) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(22, 21, 53) 0%,
+    rgb(62, 59, 147) 100%
+  );
   display: flex;
   flex: 1;
   max-height: 1080px;
@@ -354,18 +373,20 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .about-us-main.animate-enter11 {
-  animation: animate-enter11-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter11-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes animate-enter11-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v2-2 .about-us-top {
@@ -398,7 +419,7 @@ transform: translate(0,0);
 .landing-page-l-v2-2 .prodicity-logo-large {
   cursor: pointer;
   height: 302px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 27px;
   transition: all 0.2s ease;
   width: 290px;
@@ -435,15 +456,17 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .about-us-bottom.animate-enter10 {
-  animation: animate-enter10-frames 0.20s ease-in-out 0.60s 1 normal forwards;
+  animation: animate-enter10-frames 0.2s ease-in-out 0.6s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes animate-enter10-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v2-2 .social-media-icons {
@@ -506,7 +529,11 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .gamilification {
-  background: linear-gradient(180deg, rgb(59, 57, 141) 0%, rgb(50, 48, 114) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(59, 57, 141) 0%,
+    rgb(50, 48, 114) 100%
+  );
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -524,15 +551,17 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .gamification-header.animate-enter9 {
-  animation: animate-enter9-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter9-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes animate-enter9-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v2-2 .gamilification-header-title {
@@ -584,19 +613,21 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .gamilification-image-feature.animate-enter7 {
-  animation: animate-enter7-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter7-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: scale(1.1);
 }
 
 @keyframes animate-enter7-frames {
-  from{opacity: 0;
-transform: scale(1.1);
-}
-to{opacity: 1;
-transform: scale(1);
-}
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .landing-page-l-v2-2 .gamilification-image-feature:hover {
@@ -618,19 +649,21 @@ transform: scale(1);
 }
 
 .landing-page-l-v2-2 .gamilification-image-character.animate-enter8 {
-  animation: animate-enter8-frames 0.40s ease-in-out 0.10s 1 normal forwards;
+  animation: animate-enter8-frames 0.4s ease-in-out 0.1s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes animate-enter8-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v2-2 .gamilification-image-character:hover {
@@ -638,7 +671,11 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .productivity-1 {
-  background: linear-gradient(180deg, rgb(49, 47, 110) 0%, rgb(58, 55, 140) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(49, 47, 110) 0%,
+    rgb(58, 55, 140) 100%
+  );
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -666,23 +703,25 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .group-sessions-image.animate-enter4 {
-  animation: animate-enter4-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter4-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes animate-enter4-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v2-2 .group-sessions-image:hover {
-  transform: scale(0.9); 
+  transform: scale(0.9);
 }
 
 .landing-page-l-v2-2 .group-sessions-text-group {
@@ -695,18 +734,20 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .group-sessions-text-group.animate-enter3 {
-  animation: animate-enter3-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter3-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes animate-enter3-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v2-2 .group-sessions-title {
@@ -743,18 +784,20 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .marketplace-text-group.animate-enter6 {
-  animation: animate-enter6-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter6-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
   transform: translate(-25px, 0);
 }
 
 @keyframes animate-enter6-frames {
-  from{opacity: 0;
-transform: translate(-25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v2-2 .marketplace-title {
@@ -785,28 +828,34 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .marketplace-image.animate-enter5 {
-  animation: animate-enter5-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter5-frames 0.4s ease-in-out 0s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
 @keyframes animate-enter5-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .landing-page-l-v2-2 .marketplace-image:hover {
-  transform: scale(0.9); 
+  transform: scale(0.9);
 }
 
 .landing-page-l-v2-2 .differentiation {
   align-items: flex-end;
-  background: linear-gradient(180deg, rgb(58, 55, 140) 0%, rgb(22, 21, 53) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(58, 55, 140) 0%,
+    rgb(22, 21, 53) 100%
+  );
   display: flex;
   flex: 1;
   max-height: 1080px;
@@ -1006,15 +1055,17 @@ transform: translate(0,0);
 }
 
 .landing-page-l-v2-2 .differentiation-header.animate-enter2 {
-  animation: animate-enter2-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter2-frames 1s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes animate-enter2-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v2-2 .differentiation-header-subtitle {
@@ -1074,7 +1125,7 @@ to{opacity: 1;
 
 .landing-page-l-v2-2 .top-of-page-icon {
   height: 48.78px;
-  margin-bottom: 24.0px;
+  margin-bottom: 24px;
   margin-right: 25.7px;
   width: 44.18px;
 }
@@ -1207,20 +1258,23 @@ to{opacity: 1;
   margin-top: 34.5px;
   transition: all 0.2s ease;
   width: 298px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 0.2px;
 }
 
 .landing-page-l-v2-2 .contact-us-form-submit-button:hover {
-  background-color: #222053
+  background-color: #222053;
 }
 
-.landing-page-l-v2-2 .submit-button-text {
+/* .landing-page-l-v2-2 .submit-button-text {
   height: 38px;
   letter-spacing: 0;
   margin-left: 0.2px;
   margin-top: 0;
   text-align: center;
   width: 372.16px;
-}
+} */
 
 .landing-page-l-v2-2 .contact-us-right {
   height: 736px;
@@ -1232,15 +1286,17 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .contact-us-right.animate-enter {
-  animation: animate-enter-frames 0.20s ease-in-out 0.60s 1 normal forwards;
+  animation: animate-enter-frames 0.2s ease-in-out 0.6s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes animate-enter-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v2-2 .contact-us-right-image {
@@ -1308,7 +1364,7 @@ to{opacity: 1;
   align-self: center;
   cursor: pointer;
   letter-spacing: 0;
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   margin-left: 27px;
   min-height: 34px;
   text-decoration: underline;
@@ -1383,15 +1439,17 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .contact-us-header.animate-enter1 {
-  animation: animate-enter1-frames 0.40s ease-in-out 0.00s 1 normal forwards;
+  animation: animate-enter1-frames 0.4s ease-in-out 0s 1 normal forwards;
   opacity: 0;
 }
 
 @keyframes animate-enter1-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .landing-page-l-v2-2 .contact-us-header-title {
