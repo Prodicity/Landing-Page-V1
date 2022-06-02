@@ -15,7 +15,7 @@
   </head>
   <body style="margin: 0">
     <input type="hidden" id="anPageName" name="page" value="landing-page-m-v2-2" />
-    <div class="landing-page-sl-v2-2 screen">
+    <form class="landing-page-sl-v2-2 screen" name="form2" action="form2" method="post">
       <div class="introduction" id="introduction">
         <div class="frame-1-1">
           <div class="prodicity-logo-3">
@@ -40,11 +40,18 @@
           </div>
           <div class="waitlist-form-3">
             <div class="waitlist-form-input-3">
-              <div class="input-placeholder-text-3 valign-text-middle outfit-normal-cloud-20px">Add your email...</div>
+              <input
+                class="input-placeholder-text-3 outfit-normal-cloud-20px"
+                name="inputplaceholdertext"
+                placeholder="Add your email... "
+                type="email"
+              />
             </div>
-            <div class="waitlist-form-submit-button-3">
-              <div class="button-text-3 valign-text-middle outfit-semi-bold-white-20px">Get Early Access →</div>
-            </div>
+            <a href="javascript:SubmitForm('form2')">
+              <div class="waitlist-form-submit-button-3">
+                <div class="button-text-3 valign-text-middle outfit-semi-bold-white-20px">Get Early Access →</div>
+              </div></a
+            >
           </div>
         </div>
       </div>
@@ -158,24 +165,41 @@
                 <div class="contact-us-form-email-3">
                   <div class="contact-us-form-email-label-3 outfit-semi-bold-white-20px">Email:</div>
                   <div class="contact-us-form-email-input-1">
-                    <div class="email-input-placeholder-text-5 outfit-normal-cloud-15px">Enter Email Here</div>
+                    <input
+                      class="email-input-placeholder-text-5 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Email Here"
+                      type="email"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-subject-3">
                   <img class="contact-us-form-subject-label-1" src="img/contact-us-form-subject-label@2x.png" />
                   <div class="contact-us-form-subject-input-1">
-                    <div class="email-input-placeholder-text-6 outfit-normal-cloud-15px">Enter Subject Here</div>
+                    <input
+                      class="email-input-placeholder-text-6 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Subject Here"
+                      type="text"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-message-3">
                   <div class="contact-us-form-message-label-1 outfit-semi-bold-white-20px">Message:</div>
                   <div class="contact-us-form-message-input-3">
-                    <div class="email-input-placeholder-text-7 outfit-normal-cloud-15px">Enter Message Here...</div>
+                    <textarea
+                      class="email-input-placeholder-text-7 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Message Here..."
+                      type="text"
+                    ></textarea>
                   </div>
                 </div>
-                <div class="contact-us-form-submit-button-3">
-                  <div class="submit-button-text-3 outfit-semi-bold-white-20px">Submit</div>
-                </div>
+                <a href="javascript:SubmitForm('form2')">
+                  <div class="contact-us-form-submit-button-3">
+                    <div class="submit-button-text-3 outfit-semi-bold-white-20px">Submit</div>
+                  </div></a
+                >
               </div>
             </div>
             <div class="contact-us-right-3 bp1-animate-enter">
@@ -235,8 +259,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="landing-page-m-v2-2 screen">
+    </form>
+    <form class="landing-page-m-v2-2 screen" name="form4" action="form4" method="post">
       <div class="introduction1" id="introduction1">
         <div class="nav-bar-1">
           <div class="nav-bar-left-1">
@@ -281,11 +305,18 @@
           </div>
           <div class="waitlist-form-1">
             <div class="waitlist-form-input-1">
-              <div class="input-placeholder-text-1 valign-text-middle">Add your email...</div>
+              <input
+                class="input-placeholder-text-1"
+                name="inputplaceholdertext"
+                placeholder="Add your email... "
+                type="email"
+              />
             </div>
-            <div class="waitlist-form-submit-button-1">
-              <div class="button-text-1 valign-text-middle outfit-semi-bold-white-25px">Get Early Access →</div>
-            </div>
+            <a href="javascript:SubmitForm('form4')">
+              <div class="waitlist-form-submit-button-1">
+                <div class="button-text-1 valign-text-middle outfit-semi-bold-white-25px">Get Early Access →</div>
+              </div></a
+            >
           </div>
         </div>
       </div>
@@ -429,24 +460,41 @@
                 <div class="contact-us-form-email-1">
                   <div class="contact-us-form-email-label-1 outfit-semi-bold-white-30px">Email:</div>
                   <div class="contact-us-form-3">
-                    <div class="email-input-placeholder-text-1 outfit-normal-cloud-20px">Enter Email Here</div>
+                    <input
+                      class="email-input-placeholder-text-1 outfit-normal-cloud-20px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Email Here"
+                      type="email"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-subject-1">
                   <div class="contact-us-form-4 outfit-semi-bold-white-30px">Subject:</div>
                   <div class="contact-us-form-3">
-                    <div class="subject-input-placeholder outfit-normal-cloud-20px">Enter Subject Here</div>
+                    <input
+                      class="subject-input-placeholder outfit-normal-cloud-20px"
+                      name="subjectinputplaceholder"
+                      placeholder="Enter Subject Here"
+                      type="text"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-message-1">
                   <div class="contact-us-form-4 outfit-semi-bold-white-30px">Message:</div>
                   <div class="contact-us-form-message-input-1">
-                    <div class="message-input-placeholder">Enter Message Here</div>
+                    <textarea
+                      class="message-input-placeholder outfit-normal-cloud-20px"
+                      name="messageinputplaceholder"
+                      placeholder="Enter Message Here"
+                      type="text"
+                    ></textarea>
                   </div>
                 </div>
-                <div class="contact-us-form-submit-button-1">
-                  <div class="submit-button-text-1 outfit-semi-bold-white-30px">Submit</div>
-                </div>
+                <a href="javascript:SubmitForm('form4')">
+                  <div class="contact-us-form-submit-button-1">
+                    <div class="submit-button-text-1 outfit-semi-bold-white-30px">Submit</div>
+                  </div></a
+                >
               </div>
             </div>
             <div class="contact-us-right-1 bp5-animate-enter">
@@ -501,8 +549,8 @@
           <div class="contact-us-footer-copyright-1 outfit-semi-bold-white-25px">Copyright © Prodicity Inc. 2022</div>
         </div>
       </div>
-    </div>
-    <div class="landing-page-xs-v2-2 screen">
+    </form>
+    <form class="landing-page-xs-v2-2 screen" name="form6" action="form6" method="post">
       <div class="introduction2" id="introduction2">
         <div class="frame-1-2">
           <div class="prodicity-logo-4">
@@ -525,11 +573,18 @@
           </p>
           <div class="waitlist-form-4">
             <div class="waitlist-form-input-4">
-              <div class="input-placeholder-text-4 valign-text-middle outfit-normal-cloud-20px">Add your email...</div>
+              <input
+                class="input-placeholder-text-4 outfit-normal-cloud-20px"
+                name="inputplaceholdertext"
+                placeholder="Add your email... "
+                type="email"
+              />
             </div>
-            <div class="waitlist-form-submit-button-4">
-              <div class="button-text-4 valign-text-middle outfit-semi-bold-white-20px">Get Early Access →</div>
-            </div>
+            <a href="javascript:SubmitForm('form6')">
+              <div class="waitlist-form-submit-button-4">
+                <div class="button-text-4 valign-text-middle outfit-semi-bold-white-20px">Get Early Access →</div>
+              </div></a
+            >
           </div>
         </div>
       </div>
@@ -647,24 +702,41 @@
                 <div class="contact-us-form-email-4">
                   <div class="contact-us-form-email-label-4 outfit-semi-bold-white-20px">Email:</div>
                   <div class="contact-us-form-email-input-2">
-                    <div class="email-input-placeholder-text-8 outfit-normal-cloud-15px">Enter Email Here</div>
+                    <input
+                      class="email-input-placeholder-text-8 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Email Here"
+                      type="email"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-subject-4">
                   <img class="contact-us-form-subject-label-2" src="img/contact-us-form-subject-label-1@2x.png" />
                   <div class="contact-us-form-subject-input-2">
-                    <div class="email-input-placeholder-text-9 outfit-normal-cloud-15px">Enter Subject Here</div>
+                    <input
+                      class="email-input-placeholder-text-9 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Subject Here"
+                      type="text"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-message-4">
                   <div class="contact-us-form-message-label-2 outfit-semi-bold-white-20px">Message:</div>
                   <div class="contact-us-form-message-input-4">
-                    <div class="email-input-placeholder-text-10 outfit-normal-cloud-15px">Enter Message Here...</div>
+                    <textarea
+                      class="email-input-placeholder-text-10 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Message Here..."
+                      type="text"
+                    ></textarea>
                   </div>
                 </div>
-                <div class="contact-us-form-submit-button-4">
-                  <div class="submit-button-text-4 outfit-semi-bold-white-20px">Submit</div>
-                </div>
+                <a href="javascript:SubmitForm('form6')">
+                  <div class="contact-us-form-submit-button-4">
+                    <div class="submit-button-text-4 outfit-semi-bold-white-20px">Submit</div>
+                  </div></a
+                >
               </div>
             </div>
             <div class="contact-us-right-4 bp2-animate-enter">
@@ -724,8 +796,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="landing-page-s-v2-2 screen">
+    </form>
+    <form class="landing-page-s-v2-2 screen" name="form8" action="form8" method="post">
       <div class="introduction3" id="introduction3">
         <div class="frame-1">
           <div class="prodicity-logo-2">
@@ -748,11 +820,18 @@
           </p>
           <div class="waitlist-form-2">
             <div class="waitlist-form-input-2">
-              <div class="input-placeholder-text-2 valign-text-middle outfit-normal-cloud-20px">Add your email...</div>
+              <input
+                class="input-placeholder-text-2 outfit-normal-cloud-20px"
+                name="inputplaceholdertext"
+                placeholder="Add your email... "
+                type="email"
+              />
             </div>
-            <div class="waitlist-form-submit-button-2">
-              <div class="button-text-2 valign-text-middle outfit-semi-bold-white-20px">Get Early Access →</div>
-            </div>
+            <a href="javascript:SubmitForm('form8')">
+              <div class="waitlist-form-submit-button-2">
+                <div class="button-text-2 valign-text-middle outfit-semi-bold-white-20px">Get Early Access →</div>
+              </div></a
+            >
           </div>
         </div>
       </div>
@@ -891,24 +970,41 @@
                 <div class="contact-us-form-email-2">
                   <div class="contact-us-form-email-label-2 outfit-semi-bold-white-20px">Email:</div>
                   <div class="contact-us-form-email-input">
-                    <div class="email-input-placeholder-text-2 outfit-normal-cloud-15px">Enter Email Here</div>
+                    <input
+                      class="email-input-placeholder-text-2 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Email Here"
+                      type="email"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-subject-2">
                   <img class="contact-us-form-subject-label" src="img/contact-us-form-subject-label-2@2x.png" />
                   <div class="contact-us-form-subject-input">
-                    <div class="email-input-placeholder-text-3 outfit-normal-cloud-15px">Enter Subject Here</div>
+                    <input
+                      class="email-input-placeholder-text-3 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Subject Here"
+                      type="text"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-message-2">
                   <div class="contact-us-form-message-label outfit-semi-bold-white-20px">Message:</div>
                   <div class="contact-us-form-message-input-2">
-                    <div class="email-input-placeholder-text-4 outfit-normal-cloud-15px">Enter Message Here...</div>
+                    <textarea
+                      class="email-input-placeholder-text-4 outfit-normal-cloud-15px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Message Here..."
+                      type="text"
+                    ></textarea>
                   </div>
                 </div>
-                <div class="contact-us-form-submit-button-2">
-                  <div class="submit-button-text-2 outfit-semi-bold-white-20px">Submit</div>
-                </div>
+                <a href="javascript:SubmitForm('form8')">
+                  <div class="contact-us-form-submit-button-2">
+                    <div class="submit-button-text-2 outfit-semi-bold-white-20px">Submit</div>
+                  </div></a
+                >
               </div>
             </div>
             <div class="contact-us-right-2 bp4-animate-enter">
@@ -965,8 +1061,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="landing-page-l-v2-2 screen">
+    </form>
+    <form class="landing-page-l-v2-2 screen" name="form10" action="form10" method="post">
       <div class="introduction4" id="introduction4">
         <div class="nav-bar">
           <div class="nav-bar-left">
@@ -1008,10 +1104,19 @@
             access for Prodicity as soon as it gets released!
           </div>
           <div class="waitlist-form">
-            <div class="waitlist-form-input"><div class="input-placeholder-text">Add your email...</div></div>
-            <div class="waitlist-form-submit-button">
-              <div class="button-text outfit-semi-bold-white-25px">Get Early Access →</div>
+            <div class="waitlist-form-input">
+              <input
+                class="input-placeholder-text"
+                name="inputplaceholdertext"
+                placeholder="Add your email... "
+                type="email"
+              />
             </div>
+            <a href="javascript:SubmitForm('form10')">
+              <div class="waitlist-form-submit-button">
+                <div class="button-text outfit-semi-bold-white-25px">Get Early Access →</div>
+              </div></a
+            >
           </div>
         </div>
       </div>
@@ -1145,24 +1250,41 @@
                 <div class="contact-us-form-email">
                   <div class="contact-us-form-email-label outfit-semi-bold-white-30px">Email:</div>
                   <div class="contact-us-form">
-                    <div class="email-input-placeholder-text outfit-normal-cloud-20px">Enter Email Here</div>
+                    <input
+                      class="email-input-placeholder-text outfit-normal-cloud-20px"
+                      name="emailinputplaceholdertext"
+                      placeholder="Enter Email Here"
+                      type="email"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-subject">
                   <div class="contact-us-form-1 outfit-semi-bold-white-30px">Subject:</div>
                   <div class="contact-us-form">
-                    <div class="subject-input-placeholder-text outfit-normal-cloud-20px">Enter Subject Here</div>
+                    <input
+                      class="subject-input-placeholder-text outfit-normal-cloud-20px"
+                      name="subjectinputplaceholdertext"
+                      placeholder="Enter Subject Here"
+                      type="text"
+                    />
                   </div>
                 </div>
                 <div class="contact-us-form-message">
                   <div class="contact-us-form-1 outfit-semi-bold-white-30px">Message:</div>
                   <div class="contact-us-form-message-input">
-                    <div class="message-input-placeholder-text">Enter Message Here</div>
+                    <textarea
+                      class="message-input-placeholder-text outfit-normal-cloud-20px"
+                      name="messageinputplaceholdertext"
+                      placeholder="Enter Message Here"
+                      type="text"
+                    ></textarea>
                   </div>
                 </div>
-                <div class="contact-us-form-submit-button">
-                  <div class="submit-button-text outfit-semi-bold-white-30px">Submit</div>
-                </div>
+                <a href="javascript:SubmitForm('form10')">
+                  <div class="contact-us-form-submit-button">
+                    <div class="submit-button-text outfit-semi-bold-white-30px">Submit</div>
+                  </div></a
+                >
               </div>
             </div>
             <div class="contact-us-right bp3-animate-enter">
@@ -1218,7 +1340,7 @@
           <div class="contact-us-footer-copyright outfit-semi-bold-white-25px">Copyright © Prodicity Inc. 2022</div>
         </div>
       </div>
-    </div>
+    </form>
     <script>
       function ShowOnScroll() {
         this.toShow = [];
@@ -1320,6 +1442,28 @@
         var instShowOnScroll = new ShowOnScroll();
         instShowOnScroll.init();
       }, 250);
+    </script>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
     </script>
   </body>
 </html>

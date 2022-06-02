@@ -311,6 +311,8 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .input-placeholder-text {
+  background-color: transparent;
+  border: 0;
   color: var(--cloud);
   font-family: var(--font-family-outfit);
   font-size: 30px;
@@ -319,7 +321,12 @@ to{opacity: 1;
   letter-spacing: 0;
   margin-left: 39.1px;
   margin-top: 24.8px;
+  padding: 0;
   width: 716.99px;
+}
+
+.landing-page-l-v2-2 .input-placeholder-text::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-l-v2-2 .waitlist-form-submit-button {
@@ -1161,12 +1168,19 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .email-input-placeholder-text {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 31px;
-  margin-right: 16px;
-  margin-top: 1.4px;
+  margin-right: -23px;
+  margin-top: 1.1px;
+  padding: 0;
+}
+
+.landing-page-l-v2-2 .email-input-placeholder-text::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-l-v2-2 .contact-us-form-subject {
@@ -1185,12 +1199,19 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .subject-input-placeholder-text {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 31px;
   margin-right: 16px;
   margin-top: 5.5px;
+  padding: 0;
+}
+
+.landing-page-l-v2-2 .subject-input-placeholder-text::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-l-v2-2 .contact-us-form-message {
@@ -1214,16 +1235,19 @@ to{opacity: 1;
 }
 
 .landing-page-l-v2-2 .message-input-placeholder-text {
-  color: var(--cloud);
+  background-color: transparent;
+  border: 0;
   flex: 1;
-  font-family: var(--font-family-outfit);
-  font-size: var(--font-size-l);
-  font-weight: 700;
   height: 146px;
   letter-spacing: 0;
   margin-left: 31px;
   margin-right: 31px;
   margin-top: 1.6px;
+  padding: 0;
+}
+
+.landing-page-l-v2-2 .message-input-placeholder-text::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-l-v2-2 .contact-us-form-submit-button {
@@ -1783,15 +1807,24 @@ to{opacity: 1;
 }
 
 .landing-page-m-v2-2 .input-placeholder-text-1 {
+  background-color: transparent;
+  border: 0;
   color: var(--cloud);
+  flex: 1;
   font-family: var(--font-family-outfit);
   font-size: 30px;
   font-weight: 400;
-  height: 36.28px;
+  height: 36px;
   letter-spacing: 0;
-  margin-left: 28.5px;
+  margin-left: 4.95%;
+  margin-right: 4.95%;
   margin-top: 17px;
-  width: 716.99px;
+  padding: 0;
+  width: 519px;
+}
+
+.landing-page-m-v2-2 .input-placeholder-text-1::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-m-v2-2 .waitlist-form-submit-button-1 {
@@ -2655,12 +2688,19 @@ to{opacity: 1;
 }
 
 .landing-page-m-v2-2 .email-input-placeholder-text-1 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 31px;
   margin-right: 16px;
   margin-top: 1.4px;
+  padding: 0;
+}
+
+.landing-page-m-v2-2 .email-input-placeholder-text-1::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-m-v2-2 .contact-us-form-subject-1 {
@@ -2679,12 +2719,19 @@ to{opacity: 1;
 }
 
 .landing-page-m-v2-2 .subject-input-placeholder {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 31px;
   margin-right: 16px;
   margin-top: 5.5px;
+  padding: 0;
+}
+
+.landing-page-m-v2-2 .subject-input-placeholder::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-m-v2-2 .contact-us-form-message-1 {
@@ -2708,16 +2755,19 @@ to{opacity: 1;
 }
 
 .landing-page-m-v2-2 .message-input-placeholder {
-  color: var(--cloud);
+  background-color: transparent;
+  border: 0;
   flex: 1;
-  font-family: var(--font-family-outfit);
-  font-size: var(--font-size-l);
-  font-weight: 700;
   height: 146px;
   letter-spacing: 0;
   margin-left: 31px;
   margin-right: 31px;
   margin-top: 1.6px;
+  padding: 0;
+}
+
+.landing-page-m-v2-2 .message-input-placeholder::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-m-v2-2 .contact-us-form-submit-button-1 {
@@ -3174,11 +3224,20 @@ to{opacity: 1;
 }
 
 .landing-page-s-v2-2 .input-placeholder-text-2 {
-  height: 36.28px;
+  background-color: transparent;
+  border: 0;
+  flex: 1;
+  height: 36px;
   letter-spacing: 0;
-  margin-left: 28.5px;
+  margin-left: 7.22%;
+  margin-right: 5.44%;
   margin-top: 17px;
-  width: 716.99px;
+  padding: 0;
+  width: 345px;
+}
+
+.landing-page-s-v2-2 .input-placeholder-text-2::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-s-v2-2 .waitlist-form-submit-button-2 {
@@ -3996,12 +4055,19 @@ to{opacity: 1;
 }
 
 .landing-page-s-v2-2 .email-input-placeholder-text-2 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 24px;
   margin-right: 23.0px;
   margin-top: -0.6px;
+  padding: 0;
+}
+
+.landing-page-s-v2-2 .email-input-placeholder-text-2::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-s-v2-2 .contact-us-form-subject-2 {
@@ -4031,12 +4097,19 @@ to{opacity: 1;
 }
 
 .landing-page-s-v2-2 .email-input-placeholder-text-3 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 24px;
   margin-right: 23.0px;
   margin-top: 0.7px;
+  padding: 0;
+}
+
+.landing-page-s-v2-2 .email-input-placeholder-text-3::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-s-v2-2 .contact-us-form-message-2 {
@@ -4066,12 +4139,19 @@ to{opacity: 1;
 }
 
 .landing-page-s-v2-2 .email-input-placeholder-text-4 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 157px;
   letter-spacing: 0;
   margin-left: 18px;
   margin-right: 20.0px;
   margin-top: 0.6px;
+  padding: 0;
+}
+
+.landing-page-s-v2-2 .email-input-placeholder-text-4::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-s-v2-2 .contact-us-form-submit-button-2 {
@@ -4569,11 +4649,20 @@ to{opacity: 1;
 }
 
 .landing-page-sl-v2-2 .input-placeholder-text-3 {
+  background-color: transparent;
+  border: 0;
+  flex: 1;
   height: 36px;
   letter-spacing: 0;
-  margin-left: 26.5px;
+  margin-left: 12.82%;
+  margin-right: 9.63%;
   margin-top: 6.5px;
-  width: 367px;
+  padding: 0;
+  width: 162px;
+}
+
+.landing-page-sl-v2-2 .input-placeholder-text-3::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-sl-v2-2 .waitlist-form-submit-button-3 {
@@ -5308,12 +5397,19 @@ to{opacity: 1;
 }
 
 .landing-page-sl-v2-2 .email-input-placeholder-text-5 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 24px;
   margin-right: 23.2px;
   margin-top: -0.6px;
+  padding: 0;
+}
+
+.landing-page-sl-v2-2 .email-input-placeholder-text-5::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-sl-v2-2 .contact-us-form-subject-3 {
@@ -5343,12 +5439,19 @@ to{opacity: 1;
 }
 
 .landing-page-sl-v2-2 .email-input-placeholder-text-6 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 24px;
   margin-right: 23.2px;
   margin-top: 0.7px;
+  padding: 0;
+}
+
+.landing-page-sl-v2-2 .email-input-placeholder-text-6::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-sl-v2-2 .contact-us-form-message-3 {
@@ -5378,12 +5481,19 @@ to{opacity: 1;
 }
 
 .landing-page-sl-v2-2 .email-input-placeholder-text-7 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 157px;
   letter-spacing: 0;
   margin-left: 18px;
   margin-right: 20.2px;
   margin-top: 0.6px;
+  padding: 0;
+}
+
+.landing-page-sl-v2-2 .email-input-placeholder-text-7::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-sl-v2-2 .contact-us-form-submit-button-3 {
@@ -5875,11 +5985,20 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v2-2 .input-placeholder-text-4 {
+  background-color: transparent;
+  border: 0;
+  flex: 1;
   height: 36px;
   letter-spacing: 0;
-  margin-left: 26.5px;
+  margin-left: 5.29%;
+  margin-right: 4.21%;
   margin-top: 6.5px;
-  width: 367px;
+  padding: 0;
+  width: 449px;
+}
+
+.landing-page-xs-v2-2 .input-placeholder-text-4::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-xs-v2-2 .waitlist-form-submit-button-4 {
@@ -6612,12 +6731,19 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v2-2 .email-input-placeholder-text-8 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 24px;
   margin-right: 23px;
   margin-top: -0.6px;
+  padding: 0;
+}
+
+.landing-page-xs-v2-2 .email-input-placeholder-text-8::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-xs-v2-2 .contact-us-form-subject-4 {
@@ -6647,12 +6773,19 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v2-2 .email-input-placeholder-text-9 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 26px;
   letter-spacing: 0;
   margin-left: 24px;
   margin-right: 23px;
   margin-top: 0.7px;
+  padding: 0;
+}
+
+.landing-page-xs-v2-2 .email-input-placeholder-text-9::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-xs-v2-2 .contact-us-form-message-4 {
@@ -6682,12 +6815,19 @@ to{opacity: 1;
 }
 
 .landing-page-xs-v2-2 .email-input-placeholder-text-10 {
+  background-color: transparent;
+  border: 0;
   flex: 1;
   height: 157px;
   letter-spacing: 0;
   margin-left: 18px;
   margin-right: 20px;
   margin-top: 0.6px;
+  padding: 0;
+}
+
+.landing-page-xs-v2-2 .email-input-placeholder-text-10::placeholder {
+  color: #c6c6c699;
 }
 
 .landing-page-xs-v2-2 .contact-us-form-submit-button-4 {
