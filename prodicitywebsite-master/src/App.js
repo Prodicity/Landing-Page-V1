@@ -11,11 +11,11 @@ import {
 } from "@chakra-ui/react";
 
 const App = () => {
-  console.log(JSON.parse(localStorage.getItem("username")));
+  console.log(JSON.parse(localStorage.getItem("emails")));
 
   function WriteToFile() {
-    console.log("Exe");
-    if (localStorage.getItem("username") === null) {
+    console.log("Exe " + document.getElementById("email").value);
+    if (localStorage.getItem("emails") === null) {
       let eml = document.getElementById("email").value;
       let arr = [];
       arr.push(eml);
@@ -134,9 +134,9 @@ const App = () => {
               border={"none"}
             >
               <Input
-                type="email"
+                type={"email"}
                 required
-                id="email"
+                id={"email"}
                 boxShadow={"0 0 30px 5px #B1C7FF"}
                 color={"white"}
                 fontSize={"1.5vw"}
