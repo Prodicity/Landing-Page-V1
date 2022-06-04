@@ -8,24 +8,59 @@ import {
   Input,
   Textarea,
   Link,
+  Fade, 
+  ScaleFade, 
+  Slide, 
+  SlideFade,
+  useToast
 } from "@chakra-ui/react";
 
 const App = () => {
+
+  const toast = useToast()
   console.log(JSON.parse(localStorage.getItem("emails")));
 
-  function WriteToFile() {
+  function WriteToFile(e) {
+    e.preventDefault();
     console.log("Exe " + document.getElementById("email").value);
     if (localStorage.getItem("emails") === null) {
       let eml = document.getElementById("email").value;
       let arr = [];
       arr.push(eml);
       localStorage.setItem("emails", JSON.stringify(arr));
+      toast({
+        title: 'Email registered.',
+        description: "Email is registered in the database",
+        status: 'success',
+        duration: 2000,
+        isClosable: true,
+      })
     } else {
       let eml = document.getElementById("email").value;
       let arr = JSON.parse(localStorage.getItem("emails"));
-      arr.push(eml);
-      localStorage.setItem("emails", JSON.stringify(arr));
+      if (arr.includes(eml)){
+        toast({
+          title: 'Email is already registered.',
+          description: "Email is already registered...",
+          status: 'error',
+          duration: 2000,
+          isClosable: true,
+        })
+      }else{
+        arr.push(eml);
+        localStorage.setItem("emails", JSON.stringify(arr));
+        toast({
+          title: 'Email registered.',
+          description: "Email is registered in the database",
+          status: 'success',
+          duration: 2000,
+          isClosable: true,
+        })
+      }
+      
+      
     }
+    
   }
 
   return (
@@ -34,7 +69,7 @@ const App = () => {
         id="intro"
         direction={"column"}
         alignItems={"center"}
-        bgImage={require("./first.png")}
+        bgImage={require("./images/first.png")}
         width={"100vw"}
         height={"auto"}
         bgSize={"100% 100%"}
@@ -48,7 +83,7 @@ const App = () => {
           <Flex direction={"row"} alignItems={"center"} flex={5}>
             <Link href="#intro" bg={"transparent"}>
               <Image
-                src={require("./prodOne.png")}
+                src={require("./images/prodOne.png")}
                 width={"70%"}
                 height={"70%"}
               ></Image>
@@ -100,7 +135,7 @@ const App = () => {
           bgColor={"rgba(0, 0, 0, 0.4)"}
         >
           <Image
-            src={require("./rocket.png")}
+            src={require("./images/rocket.png")}
             position={"absolute"}
             top={"10vh"}
             left={"45vw"}
@@ -130,6 +165,7 @@ const App = () => {
             <Flex
               direction={"row"}
               justifyContent={"center"}
+              alignItems={'center'}
               bg={"transparent"}
               border={"none"}
             >
@@ -151,17 +187,19 @@ const App = () => {
                 placeholder="Add your email..."
               />
               <Input
+                display={'flex'}
+                direction={'column'}
                 justifyContent={"center"}
                 alignContent={"center"}
                 alignItems={"center"}
-                type="submit"
+                type={"submit"}
                 fontSize={"1.2vw"}
                 width={"15vw"}
                 value={"Get Early Access →"}
                 boxShadow={"0 0 30px 5px #B1C7FF"}
                 color={"white"}
                 bgColor={"#161535"}
-                height={"4.9vw"}
+                height={"4.92vw"}
                 borderTopRightRadius={20}
                 borderBottomRightRadius={20}
                 borderTopLeftRadius={0}
@@ -191,15 +229,15 @@ const App = () => {
           padding={"5%"}
         >
           <Flex justifyContent={"center"} direction="row">
-            <Flex direction={"column"} marginRight={"5%"}>
-              <Text color={"white"} fontWeight={"800"} fontSize={"8vh"}>
+            <Flex direction={"column"} marginRight={"5%"} alignItems={'center'}>
+              <Text color={"white"} fontWeight={"800"} fontSize={"3.5vw"}>
                 About Us
               </Text>
               <br />
               <Image
-                src={require("./prodTwo.png")}
-                width={"80%"}
-                height={"60%"}
+                src={require("./images/prodTwo.png")}
+                width={"15vw"}
+                height={"15vw"}
               />
             </Flex>
 
@@ -208,7 +246,7 @@ const App = () => {
               justifyContent={"center"}
               marginLeft={"5%"}
             >
-              <Text color={"white"} fontSize={"3vh"} width={"30vw"}>
+              <Text color={"white"} fontSize={"1.5vw"} width={"30vw"}>
                 Hello, we are a company seeking to make people productive
                 through video games. There will be various games like racing,
                 boss fighting, map findings, and more!
@@ -231,37 +269,37 @@ const App = () => {
               href="https://www.youtube.com/channel/UCjTUwakfSnLJC0t2H0YM0jA"
             >
               <Image
-                src={require("./youtube.png")}
+                src={require("./images/youtube.png")}
                 width={"3vw"}
-                height={"4vh"}
+                height={"2vw"}
               />
             </Link>
             <Link target={"_blank"} href="https://discord.gg/PkHRjWzeDc">
               <Image
-                src={require("./discord.png")}
+                src={require("./images/discord.png")}
                 width={"3vw"}
-                height={"4vh"}
+                height={"2vw"}
               />
             </Link>
             <Link target={"_blank"} href="https://www.facebook.com/Prodicity/">
               <Image
-                src={require("./facebook.png")}
+                src={require("./images/facebook.png")}
                 width={"3vw"}
-                height={"4vh"}
+                height={"2vw"}
               />
             </Link>
             <Link target={"_blank"} href="https://twitter.com/prodicity">
               <Image
-                src={require("./twitter.png")}
+                src={require("./images/twitter.png")}
                 width={"3vw"}
-                height={"4vh"}
+                height={"2vw"}
               />
             </Link>
             <Link target={"_blank"} href="https://www.tiktok.com/@prodicity">
               <Image
-                src={require("./tiktok.png")}
+                src={require("./images/tiktok.png")}
                 width={"3vw"}
-                height={"4vh"}
+                height={"2vw"}
               />
             </Link>
             <Link
@@ -269,9 +307,9 @@ const App = () => {
               href="https://www.instagram.com/prodicityteam/?hl=en"
             >
               <Image
-                src={require("./instagram.png")}
+                src={require("./images/instagram.png")}
                 width={"3vw"}
-                height={"4vh"}
+                height={"2vw"}
               />
             </Link>
           </Flex>
@@ -286,17 +324,17 @@ const App = () => {
         direction={"column"}
         alignItems={"center"}
       >
-        <Text color={"white"} fontSize={"8vh"} fontWeight={"700"}>
+        <Text color={"white"} fontSize={"4vw"} fontWeight={"700"}>
           Fight bosses with friends!
         </Text>
         <br />
-        <Text color={"white"} fontSize={"3vh"}>
+        <Text color={"white"} fontSize={"1.5vw"}>
           Level up your characters and pets. Fight bosses with friends and
           complete challenges with your clan!
         </Text>
         <br />
         <br />
-        <Image src={require("./gaming.png")} />
+        <Image src={require("./images/gaming.png")} width={'70vw'} height = {'30vw'} />
       </Flex>
 
       <Flex
@@ -309,7 +347,7 @@ const App = () => {
         alignItems={"center"}
       >
         <Flex direction="row">
-          <Image src={require("./imgOne.png")} width={"40vw"} height={"40vh"} />
+          <Image src={require("./images/imgOne.png")} width={"40vw"} height={"20vw"} />
           <Flex
             direction={"column"}
             justifyContent={"center"}
@@ -317,11 +355,11 @@ const App = () => {
             width={"40vw"}
             marginLeft={"5vw"}
           >
-            <Text color={"white"} fontWeight={"800"} fontSize={"5vh"}>
+            <Text color={"white"} fontWeight={"800"} fontSize={"2.5vw"}>
               Group Sessions
             </Text>
             <br />
-            <Text color={"white"}>
+            <Text color={"white"} fontSize={"1.2vw"}>
               Group sessions but you have the option to conduct group and
               indicifual sessions. During these sessions you can chat related to
               studies, execute tasks on the todo list, and even listen to music!
@@ -336,17 +374,17 @@ const App = () => {
             width={"40vw"}
             marginRight={"5vw"}
           >
-            <Text color={"white"} fontWeight={"800"} fontSize={"5vh"}>
+            <Text color={"white"} fontWeight={"800"} fontSize={"2.5vw"}>
               Marketplace
             </Text>
             <br />
-            <Text color={"white"}>
+            <Text color={"white"} fontSize={"1.2vw"}>
               You can buy various characters in the market system for bragging
               rights and other amazing purposes, but in order to do so, you have
               to work up to that level...
             </Text>
           </Flex>
-          <Image src={require("./imgTwo.png")} width={"40vw"} height={"40vh"} />
+          <Image src={require("./images/imgTwo.png")} width={"40vw"} height={"20vw"} />
         </Flex>
       </Flex>
 
@@ -359,13 +397,13 @@ const App = () => {
         direction={"column"}
         alignItems={"center"}
       >
-        <Text color={"white"} fontSize={"4vh"} fontWeight={"500"}>
+        <Text color={"white"} fontSize={"2vw"} fontWeight={"500"}>
           Prodicity
         </Text>
-        <Text color={"white"} fontWeight={"600"} fontSize={"6vh"}>
+        <Text color={"white"} fontWeight={"600"} fontSize={"3vw"}>
           What makes Prodicity such a great platform?
         </Text>
-        <Image src={require("./bigImg.png")} width={"85vw"} height={"85vh"} />
+        <Image src={require("./images/bigImg.png")} width={"85vw"} height={"42vw"} />
       </Flex>
 
       <Flex
@@ -491,7 +529,7 @@ const App = () => {
             justifyContent={"center"}
           >
             <Image
-              src={require("./contact.png")}
+              src={require("./images/contact.png")}
               width={"100%"}
               height={"60%"}
             />
@@ -501,7 +539,7 @@ const App = () => {
               justifyContent={"center"}
             >
               <Image
-                src={require("./nav.png")}
+                src={require("./images/nav.png")}
                 width={"13%"}
                 height={"65%"}
                 marginRight={"1vw"}
@@ -522,7 +560,7 @@ const App = () => {
               justifyContent={"center"}
             >
               <Image
-                src={require("./mail.png")}
+                src={require("./images/mail.png")}
                 width={"13%"}
                 height={"65%"}
                 marginRight={"1vw"}
@@ -550,16 +588,16 @@ const App = () => {
                 href="https://www.youtube.com/channel/UCjTUwakfSnLJC0t2H0YM0jA"
               >
                 <Image
-                  src={require("./youtube.png")}
+                  src={require("./images/youtube.png")}
                   width={"4vw"}
-                  height={"4vh"}
+                  height={"2vw"}
                 />
               </Link>
               <Link target={"_blank"} href="https://discord.gg/PkHRjWzeDc">
                 <Image
-                  src={require("./discord.png")}
+                  src={require("./images/discord.png")}
                   width={"4vw"}
-                  height={"4vh"}
+                  height={"2vw"}
                 />
               </Link>
               <Link
@@ -567,23 +605,23 @@ const App = () => {
                 href="https://www.facebook.com/Prodicity/"
               >
                 <Image
-                  src={require("./facebook.png")}
+                  src={require("./images/facebook.png")}
                   width={"4vw"}
-                  height={"4vh"}
+                  height={"2vw"}
                 />
               </Link>
               <Link target={"_blank"} href="https://twitter.com/prodicity">
                 <Image
-                  src={require("./twitter.png")}
+                  src={require("./images/twitter.png")}
                   width={"4vw"}
-                  height={"4vh"}
+                  height={"2vw"}
                 />
               </Link>
               <Link target={"_blank"} href="https://www.tiktok.com/@prodicity">
                 <Image
-                  src={require("./tiktok.png")}
+                  src={require("./images/tiktok.png")}
                   width={"4vw"}
-                  height={"4vh"}
+                  height={"2vw"}
                 />
               </Link>
               <Link
@@ -591,16 +629,16 @@ const App = () => {
                 href="https://www.instagram.com/prodicityteam/?hl=en"
               >
                 <Image
-                  src={require("./instagram.png")}
+                  src={require("./images/instagram.png")}
                   width={"4vw"}
-                  height={"4vh"}
+                  height={"2vw"}
                 />
               </Link>
             </Flex>
           </Flex>
         </Flex>
         <br />
-        <Text color={"white"}>Copyright © Prodicity Inc. 2022</Text>
+        <Text color={"white"} fontSize={'1.2vw'}>Copyright © Prodicity Inc. 2022</Text>
       </Flex>
     </Box>
   );
