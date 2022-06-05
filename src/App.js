@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Button,
   Text,
@@ -58,10 +58,13 @@ const App = () => {
         })
       }
       
-      
     }
     
   }
+
+  useEffect(() => {
+    document.title = "Prodicity | Productive Work and Self Improvement through Gaming!"
+  }, []);
 
   return (
     <Box>
