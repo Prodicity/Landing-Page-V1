@@ -235,7 +235,11 @@ const App = () => {
               </Text>
               <br />
               <Image
+<<<<<<< HEAD
                 src={require("./images/prodTwo.png")}
+=======
+                src={require("./prodTwo.png")}
+>>>>>>> fbb30f6cf6ac1f84dcb1def5fb3ed2ba997553e6
                 width={"15vw"}
                 height={"15vw"}
               />
@@ -334,7 +338,11 @@ const App = () => {
         </Text>
         <br />
         <br />
+<<<<<<< HEAD
         <Image src={require("./images/gaming.png")} width={'70vw'} height = {'30vw'} />
+=======
+        <Image src={require("./gaming.png")} width={'70vw'} height = {'30vw'} />
+>>>>>>> fbb30f6cf6ac1f84dcb1def5fb3ed2ba997553e6
       </Flex>
 
       <Flex
@@ -347,7 +355,11 @@ const App = () => {
         alignItems={"center"}
       >
         <Flex direction="row">
+<<<<<<< HEAD
           <Image src={require("./images/imgOne.png")} width={"40vw"} height={"20vw"} />
+=======
+          <Image src={require("./imgOne.png")} width={"40vw"} height={"20vw"} />
+>>>>>>> fbb30f6cf6ac1f84dcb1def5fb3ed2ba997553e6
           <Flex
             direction={"column"}
             justifyContent={"center"}
@@ -384,7 +396,11 @@ const App = () => {
               to work up to that level...
             </Text>
           </Flex>
+<<<<<<< HEAD
           <Image src={require("./images/imgTwo.png")} width={"40vw"} height={"20vw"} />
+=======
+          <Image src={require("./imgTwo.png")} width={"40vw"} height={"20vw"} />
+>>>>>>> fbb30f6cf6ac1f84dcb1def5fb3ed2ba997553e6
         </Flex>
       </Flex>
 
@@ -403,7 +419,11 @@ const App = () => {
         <Text color={"white"} fontWeight={"600"} fontSize={"3vw"}>
           What makes Prodicity such a great platform?
         </Text>
+<<<<<<< HEAD
         <Image src={require("./images/bigImg.png")} width={"85vw"} height={"42vw"} />
+=======
+        <Image src={require("./bigImg.png")} width={"85vw"} height={"42vw"} />
+>>>>>>> fbb30f6cf6ac1f84dcb1def5fb3ed2ba997553e6
       </Flex>
 
       <Flex
@@ -645,3 +665,4 @@ const App = () => {
 };
 
 export default App;
+
